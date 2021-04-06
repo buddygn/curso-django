@@ -1,4 +1,4 @@
-# curso-django
+# Django
 Curso de django (python.pro.br)
 
 [![Build Status](https://travis-ci.com/buddygn/curso-django.svg?branch=main)](https://travis-ci.com/buddygn/curso-django)
