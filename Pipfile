@@ -12,6 +12,7 @@ whitenoise = "*"
 sentry-sdk = "*"
 django = "*"
 django-debug-toolbar = "*"
+pytest-django = "*"
 
 [dev-packages]
 flake8 = "*"
