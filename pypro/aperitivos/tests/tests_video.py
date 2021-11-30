@@ -9,12 +9,12 @@ def resp(client):
     return client.get(reverse('aperitivos:video', args=('motivacao', )))
 
 
-def test_statys_code(resp):
+def test_status_code(resp):
     assert resp.status_code == 200
 
 
 def test_titulo_video(resp):
-    assert_contains(resp, '<h1>Video Aperitivo: Motivação</h1>')
+    assert_contains(resp, '<h1 class="mt-4 mb-3">Video Aperitivo: Motivação</h1>')
 
 
 def test_conteudo_video(resp):
