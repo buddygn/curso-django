@@ -7,7 +7,12 @@ from pypro.modulos.models import Modulo
 
 @pytest.fixture
 def modulos(db):
-    return [mommy.make(Modulo, titulo=s) for s in 'Antes Depois'.split()]
+    lst = []
+    for index, titulo in enumerate('Antes Depois'.split()):
+        print(titulo, index)
+        lst.append(mommy.make(Modulo, titulo=titulo, order=index))
+
+    return lst
 
 
 def test_list_modulos_ordenados(modulos):
