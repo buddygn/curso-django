@@ -3,4 +3,12 @@ SECRET_KEY=Define your secret key
 ALLOWED_HOSTS=localhost, 127.0.0.1
 DATABASE_URL=postgres://postgres:postgres@localhost/testdb
 INTERNAL_IPS=127.0.0.1
-SENTRY_DSN=
+SENTRY_DSN=dsn do sentry
+
+# Configuraçao de email
+EMAIL_BACKEND=django.core.mail.backends.console.EmailBackend
+EMAIL_HOST=localhost
+EMAIL_PORT=25
+EMAIL_HOST_USER=
+EMAIL_HOST_PASSWORD=
+EMAIL_USE_TLS=True
