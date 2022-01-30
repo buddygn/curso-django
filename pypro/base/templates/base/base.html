@@ -34,12 +34,14 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     {% for modulo in MODULOS %}
-                        <a class="dropdown-item" href="{{modulo.get_absolute_url}}">{{ modulo.titulo }}</a>
+                        <a class="dropdown-item" href="{{ modulo.get_absolute_url }}">{{ modulo.titulo }}</a>
                     {% endfor %}
                     <div class="dropdown-divider"></div>
                 </div>
             </li>
         </ul>
+        <a href="{% url 'login' %}" type="button" class="btn btn-light my-2">Entrar</a>
+
     </div>
 </nav>
 
