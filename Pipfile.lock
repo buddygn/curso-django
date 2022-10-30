@@ -148,12 +148,8 @@
             "version": "==1.1.1"
         },
         "ipython": {
-            "hashes": [
-                "sha256:ab564d4521ea8ceaac26c3a2c6e5ddbca15c8848fd5a5cc325f960da88d42974",
-                "sha256:c503a0dd6ccac9c8c260b211f2dd4479c042b49636b097cc9a0d55fe62dff64c"
-            ],
-            "index": "pypi",
-            "version": "==8.0.1"
+            "hashes": [],
+            "version": "==8.6.0"
         },
         "jedi": {
             "hashes": [
