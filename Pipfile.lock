@@ -55,12 +55,8 @@
             "version": "==0.2.0"
         },
         "black": {
-            "hashes": [
-                "sha256:77b80f693a569e2e527958459634f18df9b0ba2625ba4e0c2d5da5be42e6f2b3",
-                "sha256:a615e69ae185e08fdd73e4715e260e2479c861b5740057fde6e8b4e3b7dd589f"
-            ],
-            "markers": "python_full_version >= '3.6.2'",
-            "version": "==21.12b0"
+            "hashes": [],
+            "version": "==24.1.1"
         },
         "certifi": {
             "hashes": [
